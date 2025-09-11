@@ -1,4 +1,5 @@
 import { Logo } from "@once-ui-system/core";
+import { React } from 'react';
 
 const person = {
   firstName: "Sydney",
@@ -9,7 +10,7 @@ const person = {
   role: "Frontend Developer",
   avatar: "/images/avatar.jpg",
   email: "sydney223as@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Hindi"], // optional: Leave the array empty if you don't want to display languages
 };
 
@@ -85,9 +86,10 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+       Sydney is a Frontend Developer with strong experience in React, Next.js, and UI/UX
+engineering. Adept at building scalable and accessible web applications with a focus on
+performance and design. Proven ability to work across full-stack teams, deliver highquality products, and contribute to enterprise-level software. Passionate about animation,
+interactivity, and building memorable web experiences.
       </>
     ),
   },
@@ -96,18 +98,30 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Jio",
+        timeframe: "2023 - Present",
+        role: "Frontend Developer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Revamped Jio Careers platform with improved accessibility, simplified user flows, and redesigned UI aligned with Jio Design System.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+           Delivered major feature enhancements and optimized Reliance website with
+caching, image optimization, and high-contrast mode, boosting performance
+and accessibility
+
           </>,
+            <>
+            End-to-End Frontend Ownership: Delivered responsive, high-performance apps using
+            React, React Native, Next.js, Angular, TypeScript, Tailwind CSS, and Node.js, ensuring
+            seamless cross-platform experiences.</>, 
+            <>
+            Mobile Development: Built React Native applications with optimized navigation, offline
+            support, and API integrations, ensuring smooth performance on iOS and Android.</>,
+            <>
+            Performance Engineering: Reduced page load time by 28% and improved Core Web
+            Vitals, driving a 15% boost in user engagement across platforms.
+            </>
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
@@ -120,18 +134,20 @@ const about = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "SmartByte",
+        timeframe: "March- July 2022",
+        role: "App developer Intern",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+          Developed a mobile application: Created ”Smartbyte Notes,” a robust Flutter-based app
+          for teachers to monitor student perfo
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+Successfully launched the app on Google Play Store,
+ensuring broad accessibility
+
           </>,
+
         ],
         images: [],
       },
@@ -142,8 +158,8 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Bachelor of Engineering, Mumbai University",
+        description: <>Studied software engineering at Fr.C Rodrigues College of Engineering.</>,
       },
       {
         name: "Build the Future",
@@ -156,23 +172,10 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "ReactJs",
+        description: <>Able to build scalable React application with great expertise.</>,
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [ ],
       },
       {
         title: "Next.js",
