@@ -132,52 +132,26 @@ export const Mailchimp = ({ newsletter }: { newsletter: NewsletterProps }) => {
         id="mc-embedded-subscribe-form"
         name="mc-embedded-subscribe-form"
       >
-        <Flex id="mc_embed_signup_scroll" fillWidth maxWidth={24} mobileDirection="column" gap="8">
-          <Input
-            formNoValidate
-            id="mce-EMAIL"
-            name="EMAIL"
-            type="email"
-            placeholder="Email"
-            required
-            onChange={(e) => {
-              if (error) {
-                handleChange(e);
-              } else {
-                debouncedHandleChange(e);
-              }
-            }}
-            onBlur={handleBlur}
-            errorMessage={error}
-          />
-          <div style={{ display: "none" }}>
-            <input
-              type="checkbox"
-              readOnly
-              name="group[3492][1]"
-              id="mce-group[3492]-3492-0"
-              value=""
-              checked
-            />
-          </div>
-          <div id="mce-responses" className="clearfalse">
-            <div className="response" id="mce-error-response" style={{ display: "none" }}></div>
-            <div className="response" id="mce-success-response" style={{ display: "none" }}></div>
-          </div>
-          <div aria-hidden="true" style={{ position: "absolute", left: "-5000px" }}>
-            <input
-              type="text"
-              readOnly
-              name="b_c1a5a210340eb6c7bff33b2ba_0462d244aa"
-              tabIndex={-1}
-              value=""
-            />
-          </div>
+        <Flex id="mc_embed_signup_scroll"  style={{
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+        }} fillWidth maxWidth={24} mobileDirection="column" gap="8">
+   
           <div className="clear">
-            <Flex height="48" vertical="center">
-              <Button id="mc-embedded-subscribe" value="Subscribe" size="m" fillWidth>
-                Subscribe
-              </Button>
+            <Flex height="48" fillWidth vertical="center">
+            <Button
+  id="mc-embedded-subscribe"
+  href="/files/Gomes_Sydney.pdf"
+  size="m"
+  fillWidth
+  download="Gomes_Sydney_Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Download Sydney Gomes resume"
+>
+  Download Resume
+</Button>
             </Flex>
           </div>
         </Flex>

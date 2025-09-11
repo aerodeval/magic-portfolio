@@ -15,11 +15,10 @@ const person = {
 
 const newsletter = {
   display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
+  title: <>Open to Opportunities</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      Feel free to connect with my on LinkedIn or through my Mail, Sometimes the biggest career journeys begin with the smallest words hi or hello. If you see potential in my background, I’d be glad to connect and explore how I can contribute to your team’s success.
     </>
   ),
 };
