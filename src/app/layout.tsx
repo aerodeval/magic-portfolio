@@ -38,6 +38,9 @@ export default async function RootLayout({
     >
       <head>
         <script
+
+
+
           id="theme-init"
           dangerouslySetInnerHTML={{
             __html: `
