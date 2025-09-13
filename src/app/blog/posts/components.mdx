@@ -1,604 +1,75 @@
 ---
-title: "Using custom components in markdown"
+title: "My Love for Football: How the Beautiful Game Shapes My Code"
 publishedAt: "2025-04-20"
-summary: "Every career is a journey, filled with challenges, growth, and those significant moments that mark a shift in our path."
-tag: "Magic Portfolio"
+summary: "How my passion for football influences my approach to coding, problem-solving, and building meaningful projects. The beautiful game teaches lessons that translate directly into development work."
+tag: "Personal"
 ---
 
-Magic Portfolio will replace some default HTML elements to Once UI components to integrate better in the design and add additional functionality. Furthermore, many common Once UI components are already imported and available for use.
+## The Beautiful Game and Beautiful Code
 
-## Feedback
+Football has been a huge part of my life - it's more than just a sport to me, it's a source of inspiration, discipline, and pure joy. The same attention to detail and precision I apply when coding is mirrored in how I approach football.
 
-The feedback component is used to display critical information to visitors.
+## Lessons from the Pitch
 
-<Column fillWidth gap="-1" marginBottom="16" marginTop="8">
-<CodeBlock
-    radius="none"
-    topRadius="l"
-    codeHeight={24}
-    preview={<Feedback icon title="Feedback element" variant="success" description="Longer description of the feedback message." marginBottom="24"/>}
-    codes={[
-      {
-        code:
-`<Feedback
-    icon
-    variant="success"
-    title="Feedback element"
-    description="Longer description of the feedback message."
-/>`,
-        language: "tsx",
-        label: "Feedback"
-      }
-    ]}
-/>
-<Row fillWidth bottomRadius="l" padding="4" border="neutral-medium" background="surface">
-    <Button href="https://once-ui.com/docs/feedback" weight="default" label="View on Once UI" size="s" variant="tertiary" suffixIcon="chevronRight"/>
-</Row>
-</Column>
+Whether it's analyzing game strategies, perfecting my technique, or simply enjoying the beautiful game, football teaches me valuable lessons that translate directly into my development work:
 
-## Table
+### Teamwork
+Just like in football, coding often requires collaboration and understanding different roles. On the pitch, you need to trust your teammates, communicate effectively, and work towards a common goal. In development, this translates to:
+- **Code reviews** where we help each other improve
+- **Pair programming** sessions that enhance both participants
+- **Cross-functional collaboration** with designers, product managers, and stakeholders
 
-Tables are used to display data in a structured format.
+### Strategy
+Planning plays in football is similar to architecting code - you need to think several moves ahead. A good football team has:
+- **Formation and tactics** that adapt to different opponents
+- **Set pieces** that are practiced and executed with precision
+- **Game management** that considers the full 90 minutes
 
-<Column fillWidth gap="-1" marginBottom="16" marginTop="8">
-<CodeBlock
-    radius="none"
-    topRadius="l"
-    preview={
-    <Table 
-      data={{
-        headers: [
-          { content: "Name", key: "name", sortable: true },
-          { content: "Type", key: "type", sortable: true },
-          { content: "Description", key: "description" }
-        ],
-        rows: [
-          ["title", "string", "The title of the document"],
-          ["summary", "string", "A brief summary of the document content"],
-          ["updatedAt", "string", "The date when the document was last updated"],
-          ["navLabel", "string", "The label used in navigation menus"]
-        ]
-      }}
-    />}
-    codes={[
-      {
-        code:
-`<Table 
-    data={{
-      headers: [
-        { content: "Name", key: "name", sortable: true },
-        { content: "Type", key: "type", sortable: true },
-        { content: "Description", key: "description" }
-      ],
-      rows: [
-        ["title", "string", "The title of the document"],
-        ["summary", "string", "A brief summary of the document content"],
-        ["updatedAt", "string", "The date when the document was last updated"],
-        ["navLabel", "string", "The label used in navigation menus"]
-      ]
-    }}
-/>`,
-        language: "tsx",
-        label: "Table"
-      }
-    ]}
-/>
-<Row fillWidth bottomRadius="l" padding="4" border="neutral-medium" background="surface">
-    <Button href="https://once-ui.com/docs/table" weight="default" label="View on Once UI" size="s" variant="tertiary" suffixIcon="chevronRight"/>
-</Row>
-</Column>
+In coding, this means:
+- **System architecture** that scales and adapts
+- **Design patterns** that solve recurring problems elegantly
+- **Long-term thinking** about maintainability and performance
 
-## Code
+### Persistence
+Both football and programming require dedication and continuous improvement. The best players are those who:
+- **Practice daily** to refine their skills
+- **Learn from mistakes** and use them as growth opportunities
+- **Stay committed** even when results don't come immediately
 
-Use the CodeBlock component to display code snippets with code highlighting, preview, and copy to clipboard functionality. Use the InlineCode component for inline code snippets.
+This mirrors the developer's journey of:
+- **Continuous learning** of new technologies and techniques
+- **Debugging challenges** that test your problem-solving skills
+- **Building projects** that push your boundaries
 
-### CodeBlock
+### Problem-Solving
+Finding creative solutions on the pitch mirrors debugging and optimizing code. Football players must:
+- **Read the game** and anticipate what's coming next
+- **Adapt quickly** when the opposition changes tactics
+- **Think creatively** to break through defensive lines
 
-The code block component works based on Once UI's CodeBlock. You can access it with the complete syntax for full customization, or by using the standard markdown syntax (triple backticks) with pre-configured props.
+As developers, we:
+- **Debug complex issues** by thinking systematically
+- **Optimize performance** when applications slow down
+- **Innovate solutions** that users didn't even know they needed
 
-<Column fillWidth gap="-1" marginBottom="16" marginTop="8">
-<CodeBlock
-    radius="none"
-    topRadius="l"
-    codes={[
-      {
-        code:
-`// Full component syntax
-<CodeBlock
-    codes={[
-      {
-        code: "console.log('Hello, World!');",
-        language: "javascript",
-        label: "Example"
-      }
-    ]}
-/>
+## The Connection to My Projects
 
-// Short syntax example
-\`\`\`tsx
-function greeting(name) {
-    return \`Hello, \${name}!\`;
-}
+This passion for football often finds its way into my projects. Whether it's building a **seat booking system** for stadiums or creating **interactive experiences** that require the same precision as a perfect pass, the lessons from football shape how I approach every line of code.
 
-console.log(greeting('World'));
-\`\`\``,
-        language: "tsx",
-        label: "CodeBlock"
-      }
-    ]}
-/>
-<Row fillWidth bottomRadius="l" padding="4" border="neutral-medium" background="surface">
-    <Button href="https://once-ui.com/docs/codeBlock" weight="default" label="View on Once UI" size="s" variant="tertiary" suffixIcon="chevronRight"/>
-</Row>
-</Column>
+The **zoom feature** I implemented in my Gushwork Corp project? That required the same spatial awareness and precision as controlling a ball in tight spaces. The **responsive design** principles? They're like adapting your playing style to different pitch conditions.
 
-### InlineCode
+## Beyond the Code
 
-The `InlineCode` is another Once UI component that you can access either through the complete syntax or the short syntax (backticks). Usually the standard markdown syntax is recommended, since it doesn't have that much configuration options.
+Football has taught me that success comes from:
+- **Preparation** - studying opponents, practicing set pieces
+- **Adaptation** - changing tactics when things aren't working
+- **Resilience** - bouncing back from defeats and setbacks
+- **Joy** - finding pleasure in the process, not just the results
 
-<Column fillWidth gap="-1" marginBottom="16" marginTop="8">
-<CodeBlock
-    radius="none"
-    topRadius="l"
-    codeHeight={24}
-    preview={
-    <InlineCode>
-        const x = 10;
-    </InlineCode>}
-    codes={[
-      {
-        code:
-`// Full component syntax
-<InlineCode>
-    const x = 10;
-</InlineCode>
+These same principles apply to my development work. Every project becomes an opportunity to learn, adapt, and find joy in the creative process of building something meaningful.
 
-// Short syntax example
-\`const x = 10;\``,
-        language: "tsx",
-        label: "InlineCode"
-      }
-    ]}
-/>
-<Row fillWidth bottomRadius="l" padding="4" border="neutral-medium" background="surface">
-    <Button href="https://once-ui.com/docs/inlineCode" weight="default" label="View on Once UI" size="s" variant="tertiary" suffixIcon="chevronRight"/>
-</Row>
-</Column>
+## The Beautiful Game, Beautiful Code
 
-## Accordion
+When you're passionate about what you build, the results speak for themselves. Football has given me a framework for approaching challenges, working with others, and continuously improving - all skills that make me a better developer.
 
-Accordions are used to toggle between hiding and showing content.
-
-<Column fillWidth gap="-1" marginBottom="16" marginTop="8">
-<CodeBlock
-    radius="none"
-    topRadius="l"
-    preview={
-      <AccordionGroup 
-        items={[
-          {
-            title: "Section 1",
-            content: <Text variant="body-default-s" onBackground="neutral-weak">This is the content for section 1. You can include any components here.</Text>
-          },
-          {
-            title: "Section 2",
-            content: <Text variant="body-default-s" onBackground="neutral-weak">This is the content for section 2. Accordions are great for FAQs and other expandable content.</Text>
-          },
-          {
-            title: "Section 3",
-            content: <Text variant="body-default-s" onBackground="neutral-weak">This is the content for section 3. They help save space by hiding content until needed.</Text>
-          }
-        ]}
-      />
-    }
-    codes={[
-      {
-        code:
-`<AccordionGroup 
-    items={[
-      {
-        title: "Section 1",
-        content: <Text>This is the content for section 1.</Text>
-      },
-      {
-        title: "Section 2",
-        content: <Text>This is the content for section 2.</Text>
-      },
-      {
-        title: "Section 3",
-        content: <Text>This is the content for section 3.</Text>
-      }
-    ]}
-/>`,
-        language: "tsx",
-        label: "Accordion"
-      }
-    ]}
-/>
-<Row fillWidth bottomRadius="l" padding="4" border="neutral-medium" background="surface">
-    <Button href="https://once-ui.com/docs/accordion" weight="default" label="View on Once UI" size="s" variant="tertiary" suffixIcon="chevronRight"/>
-</Row>
-</Column>
-
-## Button
-
-Buttons are used to trigger actions or navigate to other pages.
-
-<Column fillWidth gap="-1" marginBottom="16" marginTop="8">
-<CodeBlock
-    radius="none"
-    topRadius="l"
-    codeHeight={24}
-    preview={
-    <Row gap="8" marginBottom="16" marginTop="8">
-      <Button variant="primary" label="Primary" />
-      <Button variant="secondary" label="Secondary" />
-      <Button variant="tertiary" label="Tertiary" />
-    </Row>}
-    codes={[
-      {
-        code:
-`<Row gap="8">
-  <Button variant="primary" label="Primary" />
-  <Button variant="secondary" label="Secondary" />
-  <Button variant="tertiary" label="Tertiary" />
-</Row>`,
-        language: "tsx",
-        label: "Button"
-      }
-    ]}
-/>
-<Row fillWidth bottomRadius="l" padding="4" border="neutral-medium" background="surface">
-    <Button href="https://once-ui.com/docs/button" weight="default" label="View on Once UI" size="s" variant="tertiary" suffixIcon="chevronRight"/>
-</Row>
-</Column>
-
-## Card
-
-Cards are used to group related content and actions.
-
-<Column fillWidth gap="-1" marginBottom="16" marginTop="8">
-<CodeBlock
-    radius="none"
-    topRadius="l"
-    preview={
-    <Row fillWidth horizontal="center">
-      <Card
-        href=" "
-        maxWidth={20}
-        radius="l-4"
-        direction="column"
-        padding="4"
-        gap="8"
-      >
-        <Media src="/images/projects/project-01/cover-01.jpg" aspectRatio="16/9" radius="l" sizes="400px" />
-        <Column fillWidth padding="12" gap="8" horizontal="start">
-          <Text variant="heading-strong-m" onBackground="neutral-strong" align="left">
-            Card Title
-          </Text>
-          <Text variant="body-default-s" onBackground="neutral-weak" align="left">
-            This is a description of the card. It can contain multiple lines of text.
-          </Text>
-        </Column>
-      </Card>
-    </Row>
-    }
-    codes={[
-      {
-        code:
-`<Card
-    href=" "
-    maxWidth={20}
-    radius="l-4"
-    direction="column"
-    padding="4"
-  >
-    <Media src="/images/projects/project-01/cover-01.jpg" aspectRatio="16/9" radius="l" sizes="400px" />
-    <Column fillWidth padding="12" gap="8" horizontal="start">
-      <Text variant="heading-strong-m" onBackground="neutral-strong" align="left">
-        Card Title
-      </Text>
-      <Text variant="body-default-s" onBackground="neutral-weak" align="left">
-        This is a description of the card. It can contain multiple lines of text.
-      </Text>
-    </Column>
-</Card>`,
-        language: "tsx",
-        label: "Card"
-      }
-    ]}
-/>
-<Row fillWidth bottomRadius="l" padding="4" border="neutral-medium" background="surface">
-    <Button href="https://once-ui.com/docs/card" weight="default" label="View on Once UI" size="s" variant="tertiary" suffixIcon="chevronRight"/>
-</Row>
-</Column>
-
-## Icon
-
-Icons are used to visually represent actions, objects, or concepts. For instructions on importing new icons, head over to [the Once UI documentation](https://once-ui.com/docs/icons).
-
-<Column fillWidth gap="-1" marginBottom="16" marginTop="8">
-<CodeBlock
-    radius="none"
-    topRadius="l"
-    codeHeight={24}
-    preview={<Row gap="24" wrap>
-      <Icon name="rocket" onBackground="danger-medium" size="m" />
-      <Icon name="close" size="m" />
-      <Icon name="check" onBackground="success-medium" size="m" />
-      <Icon name="info" onBackground="info-medium" size="m" />
-      <Icon name="warning" onBackground="warning-medium" size="m" />
-      <Icon name="chevronDown" size="m" />
-      <Icon name="search" size="m" />
-    </Row>}
-    codes={[
-      {
-        code:
-`<Icon name="rocket" size="m" />
-<Icon name="close" size="m" />
-<Icon name="check" onBackground="success-medium" size="m" />
-<Icon name="info" onBackground="info-medium" size="m" />
-<Icon name="warning" onBackground="warning-medium" size="m" />
-<Icon name="chevronDown" size="m" />
-<Icon name="search" size="m" />`,
-        language: "tsx",
-        label: "Icon"
-      }
-    ]}
-/>
-<Row fillWidth bottomRadius="l" padding="4" border="neutral-medium" background="surface">
-    <Button href="https://once-ui.com/docs/icon" weight="default" label="View on Once UI" size="s" variant="tertiary" suffixIcon="chevronRight"/>
-</Row>
-</Column>
-
-## Layout
-
-Layout components help structure content on the page.
-
-### Flex
-
-The Flex component is accessible as `Column` and `Row` and can handle a wide range of layout options and style properties.
-
-<Column fillWidth gap="-1" marginBottom="16" marginTop="8">
-<CodeBlock
-    radius="none"
-    topRadius="l"
-    preview={
-    <Row
-      fillWidth
-      mobileDirection="column"
-      gap="16"
-    >
-      <Column fillWidth border="neutral-alpha-medium" padding="16" radius="m">
-        <Row padding="8">Row Item</Row>
-        <Row padding="8">Row Item</Row>
-      </Column>
-      <Column fillWidth border="neutral-alpha-medium" padding="16" radius="m">
-        <Row padding="8">Row Item</Row>
-        <Row padding="8">Row Item</Row>
-      </Column>
-      <Column fillWidth border="neutral-alpha-medium" padding="16" radius="m">
-        <Row padding="8">Row Item</Row>
-        <Row padding="8">Row Item</Row>
-      </Column>
-      <Column fillWidth border="neutral-alpha-medium" padding="16" radius="m">
-        <Row padding="8">Row Item</Row>
-        <Row padding="8">Row Item</Row>
-      </Column>
-    </Row>}
-    codeHeight={24}
-    codes={[
-      {
-        code:
-`<Row
-    fillWidth
-    mobileDirection="column"
-    gap="16"
-  >
-    <Column fillWidth border="neutral-alpha-medium" padding="16" radius="m">
-      <Row padding="8">Row Item</Row>
-      <Row padding="8">Row Item</Row>
-    </Column>
-    <Column fillWidth border="neutral-alpha-medium" padding="16" radius="m">
-      <Row padding="8">Row Item</Row>
-      <Row padding="8">Row Item</Row>
-    </Column>
-    <Column fillWidth border="neutral-alpha-medium" padding="16" radius="m">
-      <Row padding="8">Row Item</Row>
-      <Row padding="8">Row Item</Row>
-    </Column>
-    <Column fillWidth border="neutral-alpha-medium" padding="16" radius="m">
-      <Row padding="8">Row Item</Row>
-      <Row padding="8">Row Item</Row>
-    </Column>
-</Row>`,
-        language: "tsx",
-        label: "Layout"
-      }
-    ]}
-/>
-<Row fillWidth bottomRadius="l" padding="4" border="neutral-medium" background="surface">
-    <Button href="https://once-ui.com/docs/flex" weight="default" label="View on Once UI" size="s" variant="tertiary" suffixIcon="chevronRight"/>
-</Row>
-</Column>
-
-### Grid
-
-Use the grid to construct responsive grid layouts. It can be styled similarly to the Flex element.
-
-<Column fillWidth gap="-1" marginBottom="16" marginTop="8">
-<CodeBlock
-    radius="none"
-    topRadius="l"
-    preview={
-    <Grid
-      fillWidth
-      columns="3"
-      mobileColumns="2"
-      gap="16"
-    >
-      <Column border="neutral-alpha-medium" padding="16" radius="m">
-        <Text>Grid Item</Text>
-      </Column>
-      <Column border="neutral-alpha-medium" padding="16" radius="m">
-        <Text>Grid Item</Text>
-      </Column>
-      <Column border="neutral-alpha-medium" padding="16" radius="m">
-        <Text>Grid Item</Text>
-      </Column>
-      <Column border="neutral-alpha-medium" padding="16" radius="m">
-        <Text>Grid Item</Text>
-      </Column>
-      <Column border="neutral-alpha-medium" padding="16" radius="m">
-        <Text>Grid Item</Text>
-      </Column>
-      <Column border="neutral-alpha-medium" padding="16" radius="m">
-        <Text>Grid Item</Text>
-      </Column>
-    </Grid>}
-    codeHeight={24}
-    codes={[
-      {
-        code:
-`<Grid
-    fillWidth
-    columns="3"
-    mobileColumns="2"
-    gap="16"
-  >
-    <Column border="neutral-alpha-medium" padding="16" radius="m">
-      <Text>Grid Item</Text>
-    </Column>
-    <Column border="neutral-alpha-medium" padding="16" radius="m">
-      <Text>Grid Item</Text>
-    </Column>
-    <Column border="neutral-alpha-medium" padding="16" radius="m">
-      <Text>Grid Item</Text>
-    </Column>
-    <Column border="neutral-alpha-medium" padding="16" radius="m">
-      <Text>Grid Item</Text>
-    </Column>
-    <Column border="neutral-alpha-medium" padding="16" radius="m">
-      <Text>Grid Item</Text>
-    </Column>
-    <Column border="neutral-alpha-medium" padding="16" radius="m">
-      <Text>Grid Item</Text>
-    </Column>
-</Grid>`,
-        language: "tsx",
-        label: "Layout"
-      }
-    ]}
-/>
-<Row fillWidth bottomRadius="l" padding="4" border="neutral-medium" background="surface">
-    <Button href="https://once-ui.com/docs/grid" weight="default" label="View on Once UI" size="s" variant="tertiary" suffixIcon="chevronRight"/>
-</Row>
-</Column>
-
-## Media
-
-Media provides an optimized way to display images. Access it with the `Media` component for full customization or use the markdown syntax.
-
-<Column fillWidth gap="-1" marginBottom="16" marginTop="8">
-<CodeBlock
-    radius="none"
-    topRadius="l"
-    codeHeight={24}
-    preview={<Media src="/images/projects/project-01/cover-01.jpg" alt="Example image" sizes="640px" aspectRatio="16/9" radius="l" />}
-    codes={[
-      {
-        code:
-`<Media
-    src="/images/projects/project-01/cover-01.jpg"
-    sizes="640px"
-    alt="Example image"
-    aspectRatio="16/9"
-    radius="l"
-/>`,
-        language: "tsx",
-        label: "Media"
-      }
-    ]}
-/>
-<Row fillWidth bottomRadius="l" padding="4" border="neutral-medium" background="surface">
-    <Button href="https://once-ui.com/docs/Media" weight="default" label="View on Once UI" size="s" variant="tertiary" suffixIcon="chevronRight"/>
-</Row>
-</Column>
-
-You can also use it to embed YouTube videos.
-
-<Column fillWidth gap="-1" marginBottom="16" marginTop="8">
-<CodeBlock
-    radius="none"
-    topRadius="l"
-    codeHeight={24}
-    preview={<Media src="https://www.youtube.com/watch?v=TQT_FSdxbC8" alt="Example video" aspectRatio="16/9" radius="l" />}
-    codes={[
-      {
-        code:
-`<Media
-    src="https://www.youtube.com/watch?v=TQT_FSdxbC8"
-    alt="Example video"
-    aspectRatio="16/9"
-    radius="l"
-/>`,
-        language: "tsx",
-        label: "Media"
-      }
-    ]}
-/>
-<Row fillWidth bottomRadius="l" padding="4" border="neutral-medium" background="surface">
-    <Button href="https://once-ui.com/docs/Media" weight="default" label="View on Once UI" size="s" variant="tertiary" suffixIcon="chevronRight"/>
-</Row>
-</Column>
-
-## Link
-
-SmartLink provides an enhanced way to link to internal and external resources. You can access it with the `SmartLink` component for full customization or with the standard markdown syntax.
-
-<Column fillWidth gap="-1" marginBottom="16" marginTop="8">
-<CodeBlock
-    radius="none"
-    topRadius="l"
-    preview={
-      <Row  fillWidth horizontal="center">
-        <SmartLink href=" " suffixIcon="chevronRight">Link with icon</SmartLink>
-      </Row>
-    }
-    codes={[
-      {
-        code:
-`<SmartLink href=" " suffixIcon="chevronRight">Link with icon</SmartLink>`,
-        language: "tsx",
-        label: "SmartLink"
-      }
-    ]}
-/>
-<Row fillWidth bottomRadius="l" padding="4" border="neutral-medium" background="surface">
-    <Button href="https://once-ui.com/docs/smart-link" weight="default" label="View on Once UI" size="s" variant="tertiary" suffixIcon="chevronRight"/>
-</Row>
-</Column>
-
-## Custom components
-
-Since Magic Portfolio is based on Once UI, you can use all the components provided by Once UI in the `.mdx` files, but you need to import them first in the `src/product/mdx.tsx` file and pass it to the `components` object.
-
-<CodeBlock
-    marginBottom="16" marginTop="8"
-    highlight="2"
-    codes={[
-      {
-        code:
-`const components = {
-    // Add new components
-    p: createParagraph as any,
-    h1: createHeading("h1") as any,
-    ...
-    Media,
-    SmartLink,
-};`,
-        language: "tsx",
-        label: "src/product/mdx.tsx"
-      }
-    ]}
-/>
+The beautiful game and beautiful code share the same DNA: precision, creativity, teamwork, and an unwavering commitment to excellence. And that's why I love them both.
