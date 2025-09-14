@@ -79,7 +79,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://cal.com/sydney-gomes-mz5dcp/30min",
   },
   intro: {
     display: true,
@@ -126,7 +126,13 @@ and accessibility
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
+            src: "/images/projects/project-01/jio-1.png",
+            alt: "Once UI Project",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/project-01/jio-2.png",
             alt: "Once UI Project",
             width: 16,
             height: 9,
@@ -172,24 +178,58 @@ ensuring broad accessibility
     title: "Technical skills",
     skills: [
       {
-        title: "ReactJs",
-        description: <>Able to build scalable React application with great expertise.</>,
+        title: "ReactJs and React Native",
+        description: <>Able to build scalable React applications with great expertise.</>,
         // optional: leave the array empty if you don't want to display images
-        images: [ ],
+        images: [     {
+          src: "/images/projects/project-01/tmp-3.png",
+          alt: "Project image",
+          width: 16,
+          height: 9,
+        }, ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "Next.js and TailwindCSS",
+        description: <>Building next gen apps with Next.js using page routing and server side rendering and TailwindCSS for rapid, responsive UI development </>,
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+            {
+              src: "/images/projects/project-01/football-1.png",
+              alt: "Project image",
+              width: 16,
+              height: 9,
+            },
+            {
+              src: "/images/projects/project-01/games-memoir.png",
+              alt: "Project image",
+              width: 16,
+              height: 9,
+            },
+                
         ],
       },
+
+      {
+        title: "HTML, CSS, JavaScript",
+        description: <>Strong foundation in HTML, CSS and JavaScript</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+            {
+              src: "/images/projects/project-01/gushwork-1.png",
+              alt: "Project image",
+              width: 16,
+              height: 9,
+            },
+            {
+              src: "/images/projects/project-01/gushwork-2.png",
+              alt: "Project image",
+              width: 16,
+              height: 9,
+            },
+                
+        ],
+      },
+
     ],
   },
 };
@@ -221,44 +261,44 @@ const gallery = {
   // These are placeholder images, replace with your own
   images: [
     {
-      src: "/images/gallery/horizontal-1.jpg",
+      src: "/images/gallery/ps-images-1.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/horizontal-2.jpg",
+      src: "/images/gallery/ps-images-2.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/horizontal-3.jpg",
+      src: "/images/gallery/ps-images-3.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/horizontal-4.jpg",
+      src: "/images/gallery/ps-images-4.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/vertical-1.jpg",
+      src: "/images/gallery/ps-images-5.jpg",
       alt: "image",
-      orientation: "vertical",
+      orientation: "horizontal",
     },
     {
-      src: "/images/gallery/vertical-2.jpg",
+      src: "/images/gallery/ps-images-6.jpg",
       alt: "image",
-      orientation: "vertical",
+      orientation: "horizontal",
     },
     {
-      src: "/images/gallery/vertical-3.jpg",
+      src: "/images/gallery/ps-images-7.jpg",
       alt: "image",
-      orientation: "vertical",
+      orientation: "horizontal",
     },
     {
-      src: "/images/gallery/vertical-4.jpg",
+      src: "/images/gallery/ps-images-8.jpg",
       alt: "image",
-      orientation: "vertical",
+      orientation: "horizontal",
     },
   ],
 };

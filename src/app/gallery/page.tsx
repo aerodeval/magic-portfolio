@@ -14,7 +14,7 @@ export async function generateMetadata() {
 
 export default function Gallery() {
   return (
-    <Flex maxWidth="l">
+    <Flex direction="column" maxWidth="l">
       <Schema
         as="webPage"
         baseURL={baseURL}
@@ -28,6 +28,8 @@ export default function Gallery() {
           image: `${baseURL}${person.avatar}`,
         }}
       />
+
+      <h1 className="pb-16">The <em className="font-bold p-1">Video Game Gallery</em>   '_"</h1>
       <MasonryGrid />
     </Flex>
   );
