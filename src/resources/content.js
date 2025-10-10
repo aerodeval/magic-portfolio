@@ -167,10 +167,6 @@ ensuring broad accessibility
         name: "Bachelor of Engineering, Mumbai University",
         description: <>Studied software engineering at Fr.C Rodrigues College of Engineering.</>,
       },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
-      },
     ],
   },
   technical: {
@@ -194,7 +190,7 @@ ensuring broad accessibility
         // optional: leave the array empty if you don't want to display images
         images: [
             {
-              src: "/images/projects/project-01/football-1.png",
+              src: "/images/projects/project-01/Football-1.png",
               alt: "Project image",
               width: 16,
               height: 9,
